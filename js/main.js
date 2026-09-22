@@ -171,33 +171,33 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // ---------- Resume Button ----------
-    const resumeBtn = document.getElementById('resumeBtn');
-    const resumeDownload = document.getElementById('resumeDownload');
+    // const resumeBtn = document.getElementById('resumeBtn');
+    // const resumeDownload = document.getElementById('resumeDownload');
     
-    if (resumeBtn) {
-        resumeBtn.addEventListener('click', function(e) {
-            e.preventDefault();
-            alert('📄 Resume download will be available once you add your PDF file.\n\nPlace your resume at: assets/resume.pdf');
-        });
-    }
+    // if (resumeBtn) {
+    //     resumeBtn.addEventListener('click', function(e) {
+    //         e.preventDefault();
+    //         alert('📄 Resume download will be available once you add your PDF file.\n\nPlace your resume at: assets/resume.pdf');
+    //     });
+    // }
     
-    if (resumeDownload) {
-        resumeDownload.addEventListener('click', function(e) {
-            e.preventDefault();
-            alert('📄 Resume download will be available once you add your PDF file.\n\nPlace your resume at: assets/resume.pdf');
-        });
-    }
+    // if (resumeDownload) {
+    //     resumeDownload.addEventListener('click', function(e) {
+    //         e.preventDefault();
+    //         alert('📄 Resume download will be available once you add your PDF file.\n\nPlace your resume at: assets/resume.pdf');
+    //     });
+    // }
     
     // ---------- Social Links (placeholder) ----------
     const socialLinks = {
-        githubLink: 'https://github.com/yourusername',
-        linkedinLink: 'https://linkedin.com/in/yourusername',
-        leetcodeLink: 'https://leetcode.com/yourusername',
-        gfgLink: 'https://geeksforgeeks.org/user/yourusername',
-        githubContact: 'https://github.com/yourusername',
-        linkedinContact: 'https://linkedin.com/in/yourusername',
-        leetcodeContact: 'https://leetcode.com/yourusername',
-        gfgContact: 'https://geeksforgeeks.org/user/yourusername'
+        githubLink: 'https://github.com/Anuragyadavdev',
+        linkedinLink: 'https://www.linkedin.com/in/anurag-yadav-0a51022a1/',
+        leetcodeLink: 'https://leetcode.com/u/ay073501/',
+        gfgLink: 'https://www.geeksforgeeks.org/profile/ay073p91f',
+        githubContact: 'https://github.com/Anuragyadavdev',
+        linkedinContact: 'https://www.linkedin.com/in/anurag-yadav-0a51022a1/',
+        leetcodeContact: 'https://leetcode.com/u/ay073501/',
+        gfgContact: 'https://www.geeksforgeeks.org/profile/ay073p91f'
     };
     
     Object.keys(socialLinks).forEach(id => {
